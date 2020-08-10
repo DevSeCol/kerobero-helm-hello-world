@@ -4,7 +4,10 @@ metadata:
   name: example-pod
 spec:
   containers:
-  - name: alpine-crt
+  - args:
+    - echo Hi! welcome to {{ .Values.country }}, my name is {{ .Values.person }}
+    command:
+    - /bin/sh
+    - -c
     image: alpine
-    command: ["/bin/sh","-c"]
-    args: ["echo Greetings from {{ .Values.country }}"]
+    name: alpine-crt
