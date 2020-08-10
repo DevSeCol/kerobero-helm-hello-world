@@ -1,1 +1,2 @@
-# helm-hello-world
+# helm example
+Helm Hello World
