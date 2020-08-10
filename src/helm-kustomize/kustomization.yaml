@@ -1,0 +1,4 @@
+resources:
+- templates/pod.yaml
+patchesStrategicMerge:
+- command.yaml
