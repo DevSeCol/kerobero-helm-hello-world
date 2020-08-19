@@ -1,4 +1,4 @@
 commonLabels:
   app: hello-pod
 resources:
-- pod.yaml
+- pod-base.yaml
