@@ -29,7 +29,7 @@ env:
   GKE_PREFIX: harley
   IMAGE: harley-gke
   DEPLOYMENT_NAME: nginx-deployment
-  REGISTRY_HOSTNAME: asia.gcr.io
+  REGISTRY_HOSTNAME: gcr.io
 
 jobs:
   setup-build-publish-deploy:
