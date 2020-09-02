@@ -25,7 +25,7 @@ env:
   GKE_PROJECT: ${{ secrets.PROJECT_ID }}
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-west1-a
-  GKE_CLUSTER: albert-cluster
+  GKE_CLUSTER: albert-gke-cluster 
   GKE_PREFIX: harley
   IMAGE: harley-gke
   DEPLOYMENT_NAME: nginx-deployment
