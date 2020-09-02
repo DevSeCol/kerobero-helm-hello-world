@@ -1,6 +1,6 @@
 bases:
 - ../../base
-namespace: ricardo-testing
+namespace: harley-testing
 patchesStrategicMerge:
 - service-loadbalancer.yaml
 - deployment-replicaset.yaml
