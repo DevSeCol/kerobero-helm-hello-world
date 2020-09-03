@@ -26,8 +26,8 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-west1-a
   GKE_CLUSTER: albert-gke-cluster 
-  GKE_PREFIX: harley
-  IMAGE: harley-gke
+  GKE_PREFIX: kerobero
+  IMAGE: kerobero-gke
   DEPLOYMENT_NAME: nginx-deployment
   REGISTRY_HOSTNAME: gcr.io
 
