@@ -1,2 +1,1 @@
-# helm example
-Helm Hello World
+# helm hello-world
